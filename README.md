@@ -1,5 +1,5 @@
 # blink1-run
-Shell script runner for [blink1-tool][2]. In order this script to work you must have [command-line][1] tool from blink1. This script can only be run on systems that has bash (Linux, OSX).
+Shell script runner for [blink1-tool][2]. In order this script to work you must have [command-line][1] tool from blink1. Script provided in this repository can only be run on systems that has bash (Linux, OSX).
 
 ## setup
 ```
