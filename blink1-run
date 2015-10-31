@@ -1,0 +1,15 @@
+#!/bin/sh
+
+BLINK="$(which blink1-tool) --quiet --blue --running"
+$BLINK > /dev/null &
+PID=$!
+$@
+OUT=$?
+kill $PID
+blink1-tool --quiet --off > /dev/null
+
+if [ $OUT -eq 0 ]; then
+	blink1-tool --quiet --green --blink 1
+else
+	blink1-tool --quiet --red --glimmer=2
+fi
