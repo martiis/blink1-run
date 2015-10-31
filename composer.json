@@ -1,8 +1,8 @@
 {
     "name": "martynas/blink1-run",
-	"type": "library",
+    "type": "library",
     "description": "Shell script runner for blink1-tool",
-	"keywords": ["bash", "script", "blink1"],
+    "keywords": ["bash", "script", "blink1"],
     "license": "MIT",
     "authors": [
         {
@@ -12,5 +12,5 @@
     ],
     "minimum-stability": "stable",
     "require": {},
-	"bin": ["bin/blink1-run"]
+    "bin": ["bin/blink1-run"]
 }
