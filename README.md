@@ -4,7 +4,7 @@ Shell script runner for [blink1-tool][2]. In order this script to work you must 
 ## setup
 ```
 # git clone https://github.com/martiis/blink1-run.git
-# mv ./blink1-run/blink1-run /usr/local/bin/blink-run
+# mv ./blink1-run/bin/blink1-run /usr/local/bin/blink-run
 ```
 
 ## usage
